@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 
 
-@Document(collection = "Parkings")
+@Document(collection = "parkings")
 public class Parking {
 	@Id
 	private long id;
